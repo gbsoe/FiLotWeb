@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import { Link, useLocation } from "wouter";
+import filotLogo from "../../assets/filot-logo.png";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -32,12 +33,12 @@ const Navbar = () => {
       <div className="container mx-auto px-4 py-3">
         <div className="flex justify-between items-center">
           <div className="flex items-center">
-            <Link href="/" className="text-xl font-bold text-primary mr-2">
-              FiLot
+            <Link href="/" className="flex items-center">
+              <img src={filotLogo} alt="FiLot Logo" className="h-10 mr-2" />
+              <span className="hidden md:inline-block text-sm text-gray-500 ml-2">
+                The AI-Powered Investment Advisor
+              </span>
             </Link>
-            <span className="hidden md:inline-block text-sm text-gray-500">
-              The AI-Powered Investment Advisor
-            </span>
           </div>
 
           {/* Desktop Navigation */}
