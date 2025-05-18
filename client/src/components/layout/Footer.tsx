@@ -6,7 +6,7 @@ const Footer = () => {
   return (
     <footer className="bg-gray-900 text-white pt-16 pb-8">
       <div className="container mx-auto px-4">
-        <div className="grid md:grid-cols-3 gap-8 mb-12">
+        <div className="grid md:grid-cols-4 gap-8 mb-12">
           {/* Company Info */}
           <div>
             <div className="text-2xl font-bold text-white mb-4">FiLot</div>
@@ -106,6 +106,28 @@ const Footer = () => {
                 <span className="text-gray-400">
                   Dubai International Financial Centre, Dubai, UAE
                 </span>
+              </li>
+            </ul>
+          </div>
+
+          {/* FiLot Ecosystem */}
+          <div>
+            <h3 className="text-lg font-semibold mb-4">FiLot Ecosystem</h3>
+            <ul className="space-y-3">
+              <li>
+                <a href="#" className="text-gray-400 hover:text-white transition-colors">
+                  FiLotanalytics
+                </a>
+              </li>
+              <li>
+                <a href="#" className="text-gray-400 hover:text-white transition-colors">
+                  FiLotsense
+                </a>
+              </li>
+              <li>
+                <a href="#" className="text-gray-400 hover:text-white transition-colors">
+                  LA! Token
+                </a>
               </li>
             </ul>
           </div>
