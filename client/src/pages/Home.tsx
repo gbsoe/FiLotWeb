@@ -168,24 +168,24 @@ const Home = () => {
               {/* Feature Card 1 */}
               <div className="bg-card-bg rounded-xl p-6 shadow-sm border border-border-color">
                 <div className="text-primary text-2xl mb-4">
-                  <i className="fas fa-hand-pointer"></i>
+                  <i className="fas fa-brain"></i>
                 </div>
-                <h3 className="text-xl font-semibold mb-3">One-Touch Investing</h3>
+                <h3 className="text-xl font-semibold mb-3">Smart Invest AI</h3>
                 <p className="text-gray-600 mb-4">
-                  The most advanced investment interface uses persistent buttons for all features, making crypto investing accessible for both novice and professional investors.
+                  Advanced reinforcement learning system that adapts and improves recommendations based on market conditions and user feedback, providing confidence ratings for each suggestion.
                 </p>
                 <ul className="space-y-2">
                   <li className="flex items-start">
                     <i className="fas fa-check text-primary mt-1 mr-2"></i>
-                    <span className="text-sm">Enterprise-grade security standards</span>
+                    <span className="text-sm">DQN architecture with experience replay</span>
                   </li>
                   <li className="flex items-start">
                     <i className="fas fa-check text-primary mt-1 mr-2"></i>
-                    <span className="text-sm">One-tap navigation between sophisticated investment services</span>
+                    <span className="text-sm">Multi-factor analysis combining technical & sentiment data</span>
                   </li>
                   <li className="flex items-start">
                     <i className="fas fa-check text-primary mt-1 mr-2"></i>
-                    <span className="text-sm">Instant access to high-yield liquidity pools (15-55% APY)</span>
+                    <span className="text-sm">Personalized risk assessment with optimal timing insights</span>
                   </li>
                 </ul>
               </div>
@@ -193,24 +193,24 @@ const Home = () => {
               {/* Feature Card 2 */}
               <div className="bg-card-bg rounded-xl p-6 shadow-sm border border-border-color">
                 <div className="text-primary text-2xl mb-4">
-                  <i className="fas fa-sliders-h"></i>
+                  <i className="fas fa-chart-line"></i>
                 </div>
-                <h3 className="text-xl font-semibold mb-3">Precision Control</h3>
+                <h3 className="text-xl font-semibold mb-3">Adaptive Learning</h3>
                 <p className="text-gray-600 mb-4">
-                  Institutional-grade investment tools with Dubai's most stringent security standards, offering precision investment control from $100 to $10,000,000+.
+                  Agentic AI system that continuously learns from market data, user feedback, and performance outcomes to refine investment strategies and improve recommendation accuracy.
                 </p>
                 <ul className="space-y-2">
                   <li className="flex items-start">
                     <i className="fas fa-check text-primary mt-1 mr-2"></i>
-                    <span className="text-sm">Customizable investment amounts with intelligent validation</span>
+                    <span className="text-sm">Real-time data from Raydium, SolPool Insight & FilotSense</span>
                   </li>
                   <li className="flex items-start">
                     <i className="fas fa-check text-primary mt-1 mr-2"></i>
-                    <span className="text-sm">Tailored risk profiles from conservative to aggressive</span>
+                    <span className="text-sm">Market timing insights with optimal entry/exit points</span>
                   </li>
                   <li className="flex items-start">
                     <i className="fas fa-check text-primary mt-1 mr-2"></i>
-                    <span className="text-sm">Real-time portfolio monitoring with exit recommendations</span>
+                    <span className="text-sm">Performance tracking with continuous strategy refinement</span>
                   </li>
                 </ul>
               </div>
@@ -218,24 +218,24 @@ const Home = () => {
               {/* Feature Card 3 */}
               <div className="bg-card-bg rounded-xl p-6 shadow-sm border border-border-color">
                 <div className="text-primary text-2xl mb-4">
-                  <i className="fas fa-brain"></i>
+                  <i className="fas fa-shield-alt"></i>
                 </div>
-                <h3 className="text-xl font-semibold mb-3">AI Advisory</h3>
+                <h3 className="text-xl font-semibold mb-3">Non-Custodial Security</h3>
                 <p className="text-gray-600 mb-4">
-                  Advanced AI intelligence analyzes market data from over 1,200 sources to provide institutional-quality investment recommendations at enterprise scale.
+                  Advanced security architecture ensures you maintain complete control of your assets through WalletConnect integration, with comprehensive logging and monitoring for peace of mind.
                 </p>
                 <ul className="space-y-2">
                   <li className="flex items-start">
                     <i className="fas fa-check text-primary mt-1 mr-2"></i>
-                    <span className="text-sm">Advanced sentiment analysis meets technical indicators</span>
+                    <span className="text-sm">WalletConnect protocol for secure wallet integration</span>
                   </li>
                   <li className="flex items-start">
                     <i className="fas fa-check text-primary mt-1 mr-2"></i>
-                    <span className="text-sm">Multi-factor risk assessment with impermanent loss protection</span>
+                    <span className="text-sm">Read-only access by default with transaction limits</span>
                   </li>
                   <li className="flex items-start">
                     <i className="fas fa-check text-primary mt-1 mr-2"></i>
-                    <span className="text-sm">Natural conversation with DIFC's leading financial AI</span>
+                    <span className="text-sm">Comprehensive logging and monitoring systems</span>
                   </li>
                 </ul>
               </div>
@@ -251,44 +251,44 @@ const Home = () => {
             )}
           >
             <div className="text-center mb-12">
-              <h2 className="text-3xl font-bold mb-4">The FiLot Investment Process</h2>
-              <p className="text-gray-600">Simple. Secure. Reliable.</p>
+              <h2 className="text-3xl font-bold mb-4">Smart Invest AI Workflow</h2>
+              <p className="text-gray-600">Intelligent. Adaptive. Profitable.</p>
             </div>
             
             <div className="grid md:grid-cols-4 gap-6">
               {/* Step 1 */}
               <div className="text-center">
                 <div className="w-16 h-16 gradient-primary rounded-full flex items-center justify-center text-white text-xl font-bold mx-auto mb-4">1</div>
-                <h3 className="text-xl font-semibold mb-2">Start Investing</h3>
+                <h3 className="text-xl font-semibold mb-2">Smart Analysis</h3>
                 <p className="text-gray-600 text-sm">
-                  Open Telegram and tap the blue "Invest" button to begin your investment journey with Dubai's most trusted crypto advisor.
+                  FiLot's AI analyzes real-time data from multiple sources using reinforcement learning to identify optimal investment opportunities.
                 </p>
               </div>
               
               {/* Step 2 */}
               <div className="text-center">
                 <div className="w-16 h-16 gradient-primary rounded-full flex items-center justify-center text-white text-xl font-bold mx-auto mb-4">2</div>
-                <h3 className="text-xl font-semibold mb-2">Select a Pool</h3>
+                <h3 className="text-xl font-semibold mb-2">Personalized Recommendations</h3>
                 <p className="text-gray-600 text-sm">
-                  Choose from pre-vetted, institutional-grade liquidity pools with the highest security rating and profit potential.
+                  Receive AI-powered recommendations with confidence ratings tailored to your risk profile and investment goals.
                 </p>
               </div>
               
               {/* Step 3 */}
               <div className="text-center">
                 <div className="w-16 h-16 gradient-primary rounded-full flex items-center justify-center text-white text-xl font-bold mx-auto mb-4">3</div>
-                <h3 className="text-xl font-semibold mb-2">Enter Amount</h3>
+                <h3 className="text-xl font-semibold mb-2">Execute Strategy</h3>
                 <p className="text-gray-600 text-sm">
-                  Specify your investment amount with our precision validation ensuring optimal position sizing for your goals.
+                  Deploy your investment with precision timing based on AI insights and multi-factor market analysis.
                 </p>
               </div>
               
               {/* Step 4 */}
               <div className="text-center">
                 <div className="w-16 h-16 gradient-primary rounded-full flex items-center justify-center text-white text-xl font-bold mx-auto mb-4">4</div>
-                <h3 className="text-xl font-semibold mb-2">Earn Returns</h3>
+                <h3 className="text-xl font-semibold mb-2">Adaptive Learning</h3>
                 <p className="text-gray-600 text-sm">
-                  Watch your investment grow while our AI continuously monitors market conditions for optimal exit timing.
+                  AI continuously learns from performance outcomes and market changes to refine future recommendations.
                 </p>
               </div>
             </div>
