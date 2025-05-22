@@ -94,7 +94,7 @@ const Knowledge = () => {
                   Key Benefit
                 </h4>
                 <p className="text-sm">
-                  Unlike traditional finance platforms, FiLot never takes custody of your assets. You maintain complete control of your tokens while still accessing institutional-grade investment opportunities.
+                  Unlike traditional finance platforms, FiLot operates as your intelligent trading agent. You maintain ownership of your tokens while FiLot executes trades within your defined parameters.
                 </p>
               </div>
             </div>
@@ -115,7 +115,7 @@ const Knowledge = () => {
                       <div>
                         <h4 className="font-semibold mb-1">Non-Custodial Security</h4>
                         <p className="text-sm text-gray-600">
-                          FiLot never holds your assets directly. You maintain complete ownership and control of your tokens.
+                          FiLot executes trades on your behalf within limits you set. You maintain ownership while FiLot optimizes your trading.
                         </p>
                       </div>
                     </div>
@@ -250,7 +250,7 @@ const Knowledge = () => {
                     Secure Wallet Integration
                   </h3>
                   <p className="text-gray-600 pl-8">
-                    Our read-only connection to your wallet ensures maximum security while providing the access needed for investment recommendations.
+                    Our secure wallet connection allows FiLot to execute trades within your permission settings while maintaining maximum security.
                   </p>
                 </div>
                 
@@ -260,7 +260,7 @@ const Knowledge = () => {
                     Transaction Control
                   </h3>
                   <p className="text-gray-600 pl-8">
-                    Every transaction requires your explicit approval. FiLot can never move your funds without your direct authorization.
+                    You choose between automatic execution or manual approval mode. FiLot operates within the permissions you grant.
                   </p>
                 </div>
                 

@@ -202,7 +202,7 @@ const Features = () => {
                     Non-Custodial Architecture
                   </h3>
                   <p className="text-gray-600 pl-8">
-                    You maintain complete control of your assets at all times - FiLot never takes custody of your funds.
+                    You set trading permissions and limits - FiLot operates within your defined parameters to execute optimal trades.
                   </p>
                 </div>
                 
@@ -212,7 +212,7 @@ const Features = () => {
                     Secure Wallet Integration
                   </h3>
                   <p className="text-gray-600 pl-8">
-                    Enterprise-grade WalletConnect protocol with read-only access by default.
+                    Enterprise-grade WalletConnect protocol with customizable execution permissions you control.
                   </p>
                 </div>
                 
