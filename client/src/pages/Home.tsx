@@ -58,23 +58,23 @@ const Home = () => {
               <div className="inline-block px-3 py-1 bg-blue-100 text-primary rounded-full text-sm font-medium mb-6">
                 <i className="fas fa-shield-alt mr-2"></i>Secure Investment
               </div>
-              <h1 className="text-4xl md:text-5xl font-bold mb-6 leading-tight">Precision Investing with FiLot</h1>
+              <h1 className="text-4xl md:text-5xl font-bold mb-6 leading-tight">Agentic AI Investment Revolution</h1>
               <p className="text-lg text-gray-600 mb-8 max-w-xl">
-                The trusted AI-powered investment advisor bringing institutional-grade crypto liquidity pool investing to everyone, with cutting-edge security and reliability.
+                FiLot's cutting-edge agentic AI system uses reinforcement learning to revolutionize cryptocurrency investment experiences through intelligent, adaptive strategies that learn and evolve with market conditions.
               </p>
               
               <div className="flex flex-wrap gap-4 mb-8">
                 <div className="flex items-center">
-                  <i className="fas fa-check-circle text-primary mr-2"></i>
-                  <span>Trusted Platform</span>
+                  <i className="fas fa-brain text-primary mr-2"></i>
+                  <span>Reinforcement Learning AI</span>
                 </div>
                 <div className="flex items-center">
-                  <i className="fas fa-lock text-primary mr-2"></i>
-                  <span>Bank-Grade Security</span>
+                  <i className="fas fa-shield-alt text-primary mr-2"></i>
+                  <span>Non-Custodial Security</span>
                 </div>
                 <div className="flex items-center">
                   <i className="fas fa-chart-line text-primary mr-2"></i>
-                  <span>15-55% APY</span>
+                  <span>Adaptive Strategies</span>
                 </div>
               </div>
               
@@ -112,15 +112,15 @@ const Home = () => {
                 
                 <div className="space-y-4 mb-6">
                   <div className="bg-card-bg p-3 rounded-lg max-w-xs">
-                    <p className="text-sm">Welcome to FiLot! I'm here to help you invest in crypto liquidity pools with institutional-grade security.</p>
+                    <p className="text-sm">Welcome to FiLot! I'm an agentic AI that uses reinforcement learning to optimize your crypto investments with adaptive strategies.</p>
                   </div>
                   
                   <div className="bg-card-bg p-3 rounded-lg max-w-xs ml-auto">
-                    <p className="text-sm">How do I start investing?</p>
+                    <p className="text-sm">What makes you different?</p>
                   </div>
                   
                   <div className="bg-card-bg p-3 rounded-lg max-w-xs">
-                    <p className="text-sm">Just tap the "Invest" button below to get started, or explore our available pools first.</p>
+                    <p className="text-sm">I learn from market data and user feedback to provide personalized recommendations with confidence ratings and optimal timing insights.</p>
                   </div>
                 </div>
                 
@@ -129,9 +129,9 @@ const Home = () => {
                     href="https://t.me/Fi_lotbot" 
                     target="_blank" 
                     rel="noopener noreferrer"
-                    className="gradient-primary text-white py-2 rounded-lg font-medium text-sm text-center"
+                    className="gradient-primary text-white py-2 rounded-lg font-medium text-sm text-center flex items-center justify-center"
                   >
-                    Invest
+                    <i className="fas fa-brain mr-1"></i> Smart Invest
                   </a>
                   <Link href="/pools">
                     <a className="bg-blue-100 text-primary py-2 rounded-lg font-medium text-sm text-center">
@@ -139,10 +139,10 @@ const Home = () => {
                     </a>
                   </Link>
                   <button className="bg-blue-100 text-primary py-2 rounded-lg font-medium text-sm">
-                    My Portfolio
+                    /simulate
                   </button>
                   <button className="bg-blue-100 text-primary py-2 rounded-lg font-medium text-sm">
-                    Help
+                    /profile
                   </button>
                 </div>
               </div>
@@ -158,9 +158,9 @@ const Home = () => {
             )}
           >
             <div className="text-center mb-12">
-              <h2 className="text-3xl font-bold mb-4">Secure & Precise Investment Platform</h2>
+              <h2 className="text-3xl font-bold mb-4">Agentic AI Investment Technology</h2>
               <p className="text-gray-600 max-w-3xl mx-auto">
-                Our investment technology delivers institutional-grade access to crypto liquidity pools with a simplified One-Command interface designed for both novice and experienced investors.
+                FiLot's reinforcement learning AI system continuously adapts and evolves, analyzing multi-factor data from Raydium, SolPool Insight, and FilotSense to deliver personalized investment strategies with confidence ratings and optimal timing insights.
               </p>
             </div>
             
