@@ -58,23 +58,23 @@ const Home = () => {
               <div className="inline-block px-3 py-1 bg-blue-100 text-primary rounded-full text-sm font-medium mb-6">
                 <i className="fas fa-shield-alt mr-2"></i>Secure Investment
               </div>
-              <h1 className="text-4xl md:text-5xl font-bold mb-6 leading-tight">Agentic AI Investment Revolution</h1>
+              <h1 className="text-4xl md:text-5xl font-bold mb-6 leading-tight">Smart Crypto Investing Made Simple</h1>
               <p className="text-lg text-gray-600 mb-8 max-w-xl">
-                FiLot's cutting-edge agentic AI system uses reinforcement learning to revolutionize cryptocurrency investment experiences through intelligent, adaptive strategies that learn and evolve with market conditions.
+                FiLot is your smart AI assistant that helps you invest in cryptocurrency safely and profitably. No technical knowledge needed - just tell us your goals and we'll handle the rest.
               </p>
               
               <div className="flex flex-wrap gap-4 mb-8">
                 <div className="flex items-center">
                   <i className="fas fa-brain text-primary mr-2"></i>
-                  <span>Reinforcement Learning AI</span>
+                  <span>Smart AI Helper</span>
                 </div>
                 <div className="flex items-center">
                   <i className="fas fa-shield-alt text-primary mr-2"></i>
-                  <span>Non-Custodial Security</span>
+                  <span>Your Money Stays Safe</span>
                 </div>
                 <div className="flex items-center">
                   <i className="fas fa-chart-line text-primary mr-2"></i>
-                  <span>Adaptive Strategies</span>
+                  <span>Grows Your Investment</span>
                 </div>
               </div>
               
@@ -112,15 +112,15 @@ const Home = () => {
                 
                 <div className="space-y-4 mb-6">
                   <div className="bg-card-bg p-3 rounded-lg max-w-xs">
-                    <p className="text-sm">Welcome to FiLot! I'm an agentic AI that uses reinforcement learning to optimize your crypto investments with adaptive strategies.</p>
+                    <p className="text-sm">Hi! I'm FiLot, your smart crypto investment assistant. I help you make money from your crypto without the stress!</p>
                   </div>
                   
                   <div className="bg-card-bg p-3 rounded-lg max-w-xs ml-auto">
-                    <p className="text-sm">What makes you different?</p>
+                    <p className="text-sm">How do you help me make money?</p>
                   </div>
                   
                   <div className="bg-card-bg p-3 rounded-lg max-w-xs">
-                    <p className="text-sm">I learn from market data and user feedback to provide personalized recommendations with confidence ratings and optimal timing insights.</p>
+                    <p className="text-sm">I watch the markets 24/7 and tell you the best times to invest. Just follow my suggestions and watch your money grow!</p>
                   </div>
                 </div>
                 
@@ -158,9 +158,9 @@ const Home = () => {
             )}
           >
             <div className="text-center mb-12">
-              <h2 className="text-3xl font-bold mb-4">Agentic AI Investment Technology</h2>
+              <h2 className="text-3xl font-bold mb-4">Why Choose FiLot?</h2>
               <p className="text-gray-600 max-w-3xl mx-auto">
-                FiLot's reinforcement learning AI system continuously adapts and evolves, analyzing multi-factor data from Raydium, SolPool Insight, and FilotSense to deliver personalized investment strategies with confidence ratings and optimal timing insights.
+                FiLot makes crypto investing simple and profitable. Our smart AI watches the markets for you and gives you easy-to-follow advice that helps you make money while keeping your investment safe.
               </p>
             </div>
             
@@ -170,22 +170,22 @@ const Home = () => {
                 <div className="text-primary text-2xl mb-4">
                   <i className="fas fa-brain"></i>
                 </div>
-                <h3 className="text-xl font-semibold mb-3">Smart Invest AI</h3>
+                <h3 className="text-xl font-semibold mb-3">Smart AI Assistant</h3>
                 <p className="text-gray-600 mb-4">
-                  Advanced reinforcement learning system that adapts and improves recommendations based on market conditions and user feedback, providing confidence ratings for each suggestion.
+                  Our smart AI watches the crypto markets 24/7 and learns what works best. It gives you simple advice on when to buy and sell to make the most profit.
                 </p>
                 <ul className="space-y-2">
                   <li className="flex items-start">
                     <i className="fas fa-check text-primary mt-1 mr-2"></i>
-                    <span className="text-sm">DQN architecture with experience replay</span>
+                    <span className="text-sm">Watches markets 24/7 so you don't have to</span>
                   </li>
                   <li className="flex items-start">
                     <i className="fas fa-check text-primary mt-1 mr-2"></i>
-                    <span className="text-sm">Multi-factor analysis combining technical & sentiment data</span>
+                    <span className="text-sm">Learns from thousands of successful trades</span>
                   </li>
                   <li className="flex items-start">
                     <i className="fas fa-check text-primary mt-1 mr-2"></i>
-                    <span className="text-sm">Personalized risk assessment with optimal timing insights</span>
+                    <span className="text-sm">Gives you confidence ratings for each recommendation</span>
                   </li>
                 </ul>
               </div>
@@ -195,22 +195,22 @@ const Home = () => {
                 <div className="text-primary text-2xl mb-4">
                   <i className="fas fa-chart-line"></i>
                 </div>
-                <h3 className="text-xl font-semibold mb-3">Adaptive Learning</h3>
+                <h3 className="text-xl font-semibold mb-3">Always Getting Smarter</h3>
                 <p className="text-gray-600 mb-4">
-                  Agentic AI system that continuously learns from market data, user feedback, and performance outcomes to refine investment strategies and improve recommendation accuracy.
+                  FiLot learns from every trade and gets better over time. The more people use it, the smarter it becomes at finding profitable opportunities for everyone.
                 </p>
                 <ul className="space-y-2">
                   <li className="flex items-start">
                     <i className="fas fa-check text-primary mt-1 mr-2"></i>
-                    <span className="text-sm">Real-time data from Raydium, SolPool Insight & FilotSense</span>
+                    <span className="text-sm">Learns from millions of real market trades</span>
                   </li>
                   <li className="flex items-start">
                     <i className="fas fa-check text-primary mt-1 mr-2"></i>
-                    <span className="text-sm">Market timing insights with optimal entry/exit points</span>
+                    <span className="text-sm">Tells you the best times to buy and sell</span>
                   </li>
                   <li className="flex items-start">
                     <i className="fas fa-check text-primary mt-1 mr-2"></i>
-                    <span className="text-sm">Performance tracking with continuous strategy refinement</span>
+                    <span className="text-sm">Tracks your success and improves suggestions</span>
                   </li>
                 </ul>
               </div>
@@ -220,22 +220,22 @@ const Home = () => {
                 <div className="text-primary text-2xl mb-4">
                   <i className="fas fa-shield-alt"></i>
                 </div>
-                <h3 className="text-xl font-semibold mb-3">Non-Custodial Security</h3>
+                <h3 className="text-xl font-semibold mb-3">Your Money Stays Safe</h3>
                 <p className="text-gray-600 mb-4">
-                  Advanced security architecture ensures you maintain complete control of your assets through WalletConnect integration, with comprehensive logging and monitoring for peace of mind.
+                  You always keep control of your money. FiLot never touches your funds - it just gives you advice. Your crypto stays in your wallet where only you can access it.
                 </p>
                 <ul className="space-y-2">
                   <li className="flex items-start">
                     <i className="fas fa-check text-primary mt-1 mr-2"></i>
-                    <span className="text-sm">WalletConnect protocol for secure wallet integration</span>
+                    <span className="text-sm">Your money never leaves your wallet</span>
                   </li>
                   <li className="flex items-start">
                     <i className="fas fa-check text-primary mt-1 mr-2"></i>
-                    <span className="text-sm">Read-only access by default with transaction limits</span>
+                    <span className="text-sm">FiLot only gives advice, you make the decisions</span>
                   </li>
                   <li className="flex items-start">
                     <i className="fas fa-check text-primary mt-1 mr-2"></i>
-                    <span className="text-sm">Comprehensive logging and monitoring systems</span>
+                    <span className="text-sm">Bank-level security keeps everything protected</span>
                   </li>
                 </ul>
               </div>
@@ -251,44 +251,44 @@ const Home = () => {
             )}
           >
             <div className="text-center mb-12">
-              <h2 className="text-3xl font-bold mb-4">Smart Invest AI Workflow</h2>
-              <p className="text-gray-600">Intelligent. Adaptive. Profitable.</p>
+              <h2 className="text-3xl font-bold mb-4">How FiLot Works</h2>
+              <p className="text-gray-600">Simple. Safe. Profitable.</p>
             </div>
             
             <div className="grid md:grid-cols-4 gap-6">
               {/* Step 1 */}
               <div className="text-center">
                 <div className="w-16 h-16 gradient-primary rounded-full flex items-center justify-center text-white text-xl font-bold mx-auto mb-4">1</div>
-                <h3 className="text-xl font-semibold mb-2">Smart Analysis</h3>
+                <h3 className="text-xl font-semibold mb-2">Chat with FiLot</h3>
                 <p className="text-gray-600 text-sm">
-                  FiLot's AI analyzes real-time data from multiple sources using reinforcement learning to identify optimal investment opportunities.
+                  Open Telegram and start chatting with FiLot. Tell it how much you want to invest and what your goals are.
                 </p>
               </div>
               
               {/* Step 2 */}
               <div className="text-center">
                 <div className="w-16 h-16 gradient-primary rounded-full flex items-center justify-center text-white text-xl font-bold mx-auto mb-4">2</div>
-                <h3 className="text-xl font-semibold mb-2">Personalized Recommendations</h3>
+                <h3 className="text-xl font-semibold mb-2">Get Smart Advice</h3>
                 <p className="text-gray-600 text-sm">
-                  Receive AI-powered recommendations with confidence ratings tailored to your risk profile and investment goals.
+                  FiLot looks at the markets and gives you personalized recommendations based on what's working best right now.
                 </p>
               </div>
               
               {/* Step 3 */}
               <div className="text-center">
                 <div className="w-16 h-16 gradient-primary rounded-full flex items-center justify-center text-white text-xl font-bold mx-auto mb-4">3</div>
-                <h3 className="text-xl font-semibold mb-2">Execute Strategy</h3>
+                <h3 className="text-xl font-semibold mb-2">Make Your Move</h3>
                 <p className="text-gray-600 text-sm">
-                  Deploy your investment with precision timing based on AI insights and multi-factor market analysis.
+                  Follow FiLot's easy suggestions to invest at the best times. You stay in control of your money at all times.
                 </p>
               </div>
               
               {/* Step 4 */}
               <div className="text-center">
                 <div className="w-16 h-16 gradient-primary rounded-full flex items-center justify-center text-white text-xl font-bold mx-auto mb-4">4</div>
-                <h3 className="text-xl font-semibold mb-2">Adaptive Learning</h3>
+                <h3 className="text-xl font-semibold mb-2">Watch It Grow</h3>
                 <p className="text-gray-600 text-sm">
-                  AI continuously learns from performance outcomes and market changes to refine future recommendations.
+                  FiLot keeps learning and gives you better advice over time. Your investments get smarter as the AI gets smarter.
                 </p>
               </div>
             </div>
