@@ -48,9 +48,9 @@ const Pools = () => {
     <section className="pt-20 pb-20 bg-gray-50">
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
-          <h1 className="text-4xl font-bold mb-4">Precision Investing Liquidity Pools</h1>
+          <h1 className="text-4xl font-bold mb-4">Liquidity Pools</h1>
           <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-            FiLot's precision investing helps you earn passive income by investing in these high-performance liquidity pools.
+            FiLot helps you earn passive income by investing in these high-performance liquidity pools.
           </p>
         </div>
         
@@ -181,9 +181,9 @@ const Pools = () => {
             isVisible.cta ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"
           )}
         >
-          <h2 className="text-2xl font-bold mb-4">Ready to start precision investing in these pools?</h2>
+          <h2 className="text-2xl font-bold mb-4">Ready to start earning from these pools?</h2>
           <p className="text-gray-600 mb-6 max-w-xl mx-auto">
-            Begin your journey to financial freedom with FiLot's enterprise-grade precision investing platform.
+            Begin your journey to financial freedom with FiLot's enterprise-grade investment platform.
           </p>
           <a 
             href="https://t.me/Fi_lotbot" 

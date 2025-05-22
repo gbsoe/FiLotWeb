@@ -158,9 +158,9 @@ const Home = () => {
             )}
           >
             <div className="text-center mb-12">
-              <h2 className="text-3xl font-bold mb-4">Why Choose FiLot Precision Investing?</h2>
+              <h2 className="text-3xl font-bold mb-4">Why Choose FiLot?</h2>
               <p className="text-gray-600 max-w-3xl mx-auto">
-                FiLot delivers precision investing that's simple and profitable. Our smart AI watches the markets for you and executes precision trades that help you make money while keeping your investment safe.
+                FiLot delivers smart investing that's simple and profitable. Our AI watches the markets for you and executes precise trades that help you make money while keeping your investment safe.
               </p>
             </div>
             

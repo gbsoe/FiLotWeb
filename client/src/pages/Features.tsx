@@ -60,9 +60,9 @@ const Features = () => {
           <div className="inline-block px-3 py-1 bg-blue-100 text-primary rounded-full text-sm font-medium mb-4">
             <i className="fas fa-shield-alt mr-2"></i>Enterprise-Grade Security
           </div>
-          <h1 className="text-4xl md:text-5xl font-bold mb-6">FiLot Precision Investing Features</h1>
+          <h1 className="text-4xl md:text-5xl font-bold mb-6">FiLot Features</h1>
           <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-            Our precision investing platform delivers institutional-grade cryptocurrency tools with military-grade security, absolute precision, and uncompromising reliability as our highest priorities.
+            Our platform delivers institutional-grade cryptocurrency tools with military-grade security, absolute precision, and uncompromising reliability as our highest priorities.
           </p>
         </div>
         
@@ -76,9 +76,9 @@ const Features = () => {
         >
           <div className="flex flex-col lg:flex-row items-center gap-12">
             <div className="lg:w-1/2">
-              <h2 className="text-3xl font-bold mb-6">One-Command Precision Investing</h2>
+              <h2 className="text-3xl font-bold mb-6">One-Command Interface</h2>
               <p className="text-gray-600 mb-6">
-                FiLot has reimagined precision investing with the world's most intuitive Telegram interface. Our persistent button navigation system eliminates the complexity of traditional investment platforms.
+                FiLot has reimagined crypto investing with the world's most intuitive Telegram interface. Our persistent button navigation system eliminates the complexity of traditional investment platforms.
               </p>
               
               <div className="space-y-6">

@@ -59,7 +59,7 @@ const Knowledge = () => {
         <div className="text-center mb-16">
           <h1 className="text-4xl md:text-5xl font-bold mb-6">Precision Investing, Simplified</h1>
           <p className="text-lg text-gray-600 max-w-3xl mx-auto mb-8">
-            Learn how FiLot's precision investing makes earning from your crypto as simple as using a banking app – without the complicated jargon or technical skills.
+            Learn how FiLot makes earning from your crypto as simple as using a banking app – without the complicated jargon or technical skills.
           </p>
           <div className="flex flex-wrap justify-center gap-4">
             <a href="#how-it-works" className="gradient-primary text-white px-6 py-3 rounded-lg font-medium hover:opacity-90 transition-opacity">
@@ -83,7 +83,7 @@ const Knowledge = () => {
             <div className="lg:w-1/2">
               <h2 className="text-3xl font-bold mb-6">What is FiLot?</h2>
               <p className="text-gray-600 mb-6">
-                FiLot is an AI-powered precision investing platform that makes cryptocurrency investing accessible and profitable for everyone. Our platform simplifies the complex process of earning returns from crypto liquidity pools.
+                FiLot is an AI-powered investment platform that makes cryptocurrency investing accessible and profitable for everyone. Our platform simplifies the complex process of earning returns from crypto liquidity pools.
               </p>
               <p className="text-gray-600 mb-6">
                 With our One-Command interface, you can start generating passive income from your crypto assets without needing technical knowledge or complex wallet management.
@@ -171,9 +171,9 @@ const Knowledge = () => {
           )}
         >
           <div className="text-center mb-12">
-            <h2 className="text-3xl font-bold mb-4">How FiLot Precision Investing Works</h2>
+            <h2 className="text-3xl font-bold mb-4">How FiLot Works</h2>
             <p className="text-gray-600 max-w-2xl mx-auto">
-              Our precision investing platform makes cryptocurrency investing simple, secure, and profitable.
+              Our platform makes cryptocurrency investing simple, secure, and profitable.
             </p>
           </div>
           
