@@ -134,9 +134,9 @@ const Home = () => {
                     <i className="fas fa-brain mr-1"></i> Smart Invest
                   </a>
                   <Link href="/pools">
-                    <a className="bg-blue-100 text-primary py-2 rounded-lg font-medium text-sm text-center">
+                    <button className="bg-blue-100 text-primary py-2 rounded-lg font-medium text-sm w-full">
                       View Pools
-                    </a>
+                    </button>
                   </Link>
                   <button className="bg-blue-100 text-primary py-2 rounded-lg font-medium text-sm">
                     /simulate
