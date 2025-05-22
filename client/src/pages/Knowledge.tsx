@@ -57,9 +57,9 @@ const Knowledge = () => {
       <div className="container mx-auto px-4">
         {/* Hero Section */}
         <div className="text-center mb-16">
-          <h1 className="text-4xl md:text-5xl font-bold mb-6">Cryptocurrency Investing, Simplified</h1>
+          <h1 className="text-4xl md:text-5xl font-bold mb-6">Precision Investing, Simplified</h1>
           <p className="text-lg text-gray-600 max-w-3xl mx-auto mb-8">
-            Learn how FiLot makes earning from your crypto as simple as using a banking app – without the complicated jargon or technical skills.
+            Learn how FiLot's precision investing makes earning from your crypto as simple as using a banking app – without the complicated jargon or technical skills.
           </p>
           <div className="flex flex-wrap justify-center gap-4">
             <a href="#how-it-works" className="gradient-primary text-white px-6 py-3 rounded-lg font-medium hover:opacity-90 transition-opacity">
@@ -83,7 +83,7 @@ const Knowledge = () => {
             <div className="lg:w-1/2">
               <h2 className="text-3xl font-bold mb-6">What is FiLot?</h2>
               <p className="text-gray-600 mb-6">
-                FiLot is an AI-powered investment advisor that makes cryptocurrency investing accessible and profitable for everyone. Our platform simplifies the complex process of earning returns from crypto liquidity pools.
+                FiLot is an AI-powered precision investing platform that makes cryptocurrency investing accessible and profitable for everyone. Our platform simplifies the complex process of earning returns from crypto liquidity pools.
               </p>
               <p className="text-gray-600 mb-6">
                 With our One-Command interface, you can start generating passive income from your crypto assets without needing technical knowledge or complex wallet management.
@@ -151,7 +151,7 @@ const Knowledge = () => {
                       <div>
                         <h4 className="font-semibold mb-1">High-Yield Opportunities</h4>
                         <p className="text-sm text-gray-600">
-                          Access to pre-vetted liquidity pools offering 15-55% APY with optimized risk-reward profiles.
+                          Access to pre-vetted liquidity pools offering 15-95% APY with optimized risk-reward profiles.
                         </p>
                       </div>
                     </div>
@@ -171,9 +171,9 @@ const Knowledge = () => {
           )}
         >
           <div className="text-center mb-12">
-            <h2 className="text-3xl font-bold mb-4">How FiLot Works</h2>
+            <h2 className="text-3xl font-bold mb-4">How FiLot Precision Investing Works</h2>
             <p className="text-gray-600 max-w-2xl mx-auto">
-              Our platform makes cryptocurrency investing simple, secure, and profitable.
+              Our precision investing platform makes cryptocurrency investing simple, secure, and profitable.
             </p>
           </div>
           

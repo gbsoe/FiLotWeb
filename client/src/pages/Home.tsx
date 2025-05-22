@@ -58,9 +58,9 @@ const Home = () => {
               <div className="inline-block px-3 py-1 bg-blue-100 text-primary rounded-full text-sm font-medium mb-6">
                 <i className="fas fa-shield-alt mr-2"></i>Secure Investment
               </div>
-              <h1 className="text-4xl md:text-5xl font-bold mb-6 leading-tight">Smart Crypto Investing Made Simple</h1>
+              <h1 className="text-4xl md:text-5xl font-bold mb-6 leading-tight">Precision Investing Made Simple</h1>
               <p className="text-lg text-gray-600 mb-8 max-w-xl">
-                FiLot is your smart AI assistant that helps you invest in cryptocurrency safely and profitably. No technical knowledge needed - just tell us your goals and we'll handle the rest.
+                FiLot delivers precision investing that helps you invest in cryptocurrency safely and profitably. No technical knowledge needed - just tell us your goals and we'll handle the rest.
               </p>
               
               <div className="flex flex-wrap gap-4 mb-8">
@@ -70,7 +70,7 @@ const Home = () => {
                 </div>
                 <div className="flex items-center">
                   <i className="fas fa-shield-alt text-primary mr-2"></i>
-                  <span>Your Money Stays Safe</span>
+                  <span>Smart & Secure Trading</span>
                 </div>
                 <div className="flex items-center">
                   <i className="fas fa-chart-line text-primary mr-2"></i>
@@ -158,9 +158,9 @@ const Home = () => {
             )}
           >
             <div className="text-center mb-12">
-              <h2 className="text-3xl font-bold mb-4">Why Choose FiLot?</h2>
+              <h2 className="text-3xl font-bold mb-4">Why Choose FiLot Precision Investing?</h2>
               <p className="text-gray-600 max-w-3xl mx-auto">
-                FiLot makes crypto investing simple and profitable. Our smart AI watches the markets for you and gives you easy-to-follow advice that helps you make money while keeping your investment safe.
+                FiLot delivers precision investing that's simple and profitable. Our smart AI watches the markets for you and executes precision trades that help you make money while keeping your investment safe.
               </p>
             </div>
             
