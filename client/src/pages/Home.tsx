@@ -220,18 +220,18 @@ const Home = () => {
                 <div className="text-primary text-2xl mb-4">
                   <i className="fas fa-shield-alt"></i>
                 </div>
-                <h3 className="text-xl font-semibold mb-3">Your Money Stays Safe</h3>
+                <h3 className="text-xl font-semibold mb-3">Smart & Secure Trading</h3>
                 <p className="text-gray-600 mb-4">
-                  You always keep control of your money. FiLot never touches your funds - it just gives you advice. Your crypto stays in your wallet where only you can access it.
+                  FiLot can execute trades for you automatically or wait for your approval. You set the rules and limits, and FiLot works within them to grow your investment safely.
                 </p>
                 <ul className="space-y-2">
                   <li className="flex items-start">
                     <i className="fas fa-check text-primary mt-1 mr-2"></i>
-                    <span className="text-sm">Your money never leaves your wallet</span>
+                    <span className="text-sm">You control FiLot's trading permissions and limits</span>
                   </li>
                   <li className="flex items-start">
                     <i className="fas fa-check text-primary mt-1 mr-2"></i>
-                    <span className="text-sm">FiLot only gives advice, you make the decisions</span>
+                    <span className="text-sm">Choose automatic execution or manual approval</span>
                   </li>
                   <li className="flex items-start">
                     <i className="fas fa-check text-primary mt-1 mr-2"></i>
