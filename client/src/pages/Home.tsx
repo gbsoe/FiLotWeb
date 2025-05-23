@@ -55,8 +55,11 @@ const Home = () => {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:flex-row items-center mb-20">
             <div className="lg:w-1/2 mb-10 lg:mb-0">
-              <div className="inline-block px-3 py-1 bg-blue-100 text-primary rounded-full text-sm font-medium mb-6">
-                <i className="fas fa-shield-alt mr-2"></i>Secure Investment
+              <div className="inline-block px-3 py-1 bg-blue-100 text-primary rounded-full text-sm font-medium mb-4">
+                <i className="fas fa-calendar mr-2"></i>Launching December 2025
+              </div>
+              <div className="inline-block px-3 py-1 bg-green-100 text-green-700 rounded-full text-sm font-medium mb-6 ml-2">
+                <i className="fas fa-users mr-2"></i>Early Access Available
               </div>
               <h1 className="text-4xl md:text-5xl font-bold mb-6 leading-tight">Precision Investing Made Simple</h1>
               <p className="text-lg text-gray-600 mb-8 max-w-xl">
@@ -85,7 +88,7 @@ const Home = () => {
                   rel="noopener noreferrer"
                   className="gradient-primary text-white px-6 py-3 rounded-lg font-medium hover:opacity-90 transition-opacity inline-block"
                 >
-                  Start Investing Now
+                  Join Early Access
                 </a>
                 <Link href="/features">
                   <a className="border border-primary text-primary px-6 py-3 rounded-lg font-medium hover:bg-blue-50 transition-colors inline-block">
@@ -131,7 +134,7 @@ const Home = () => {
                     rel="noopener noreferrer"
                     className="gradient-primary text-white py-2 rounded-lg font-medium text-sm text-center flex items-center justify-center"
                   >
-                    <i className="fas fa-brain mr-1"></i> Smart Invest
+                    <i className="fas fa-brain mr-1"></i> Preview Mode
                   </a>
                   <Link href="/pools">
                     <button className="bg-blue-100 text-primary py-2 rounded-lg font-medium text-sm w-full">

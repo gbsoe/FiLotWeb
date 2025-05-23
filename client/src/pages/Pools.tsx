@@ -163,7 +163,7 @@ const Pools = () => {
                         rel="noopener noreferrer"
                         className="gradient-primary text-white px-4 py-2 rounded-lg text-sm font-medium inline-block hover:opacity-90 transition-opacity"
                       >
-                        Invest
+                        Preview
                       </a>
                     </td>
                   </tr>
@@ -181,9 +181,9 @@ const Pools = () => {
             isVisible.cta ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"
           )}
         >
-          <h2 className="text-2xl font-bold mb-4">Ready to start earning from these pools?</h2>
+          <h2 className="text-2xl font-bold mb-4">Ready for FiLot's Launch?</h2>
           <p className="text-gray-600 mb-6 max-w-xl mx-auto">
-            Begin your journey to financial freedom with FiLot's enterprise-grade investment platform.
+            FiLot launches December 2025. Join early access to be first in line when precision investing goes live.
           </p>
           <a 
             href="https://t.me/Fi_lotbot" 
@@ -191,7 +191,7 @@ const Pools = () => {
             rel="noopener noreferrer"
             className="gradient-primary text-white px-8 py-4 rounded-lg font-medium inline-flex items-center hover:opacity-90 transition-opacity"
           >
-            Start Investing with FiLot <i className="fab fa-telegram ml-2"></i>
+            Join Early Access <i className="fab fa-telegram ml-2"></i>
           </a>
         </div>
       </div>
