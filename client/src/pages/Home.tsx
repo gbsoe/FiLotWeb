@@ -300,10 +300,7 @@ const Home = () => {
           {/* How You Earn Section */}
           <div 
             id="how-you-earn"
-            className={cn(
-              "mb-20 transition-all duration-1000 transform bg-gradient-to-br from-blue-50 to-indigo-50 rounded-2xl p-8 md:p-12",
-              isVisible.testimonials ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"
-            )}
+            className="mb-20 bg-gradient-to-br from-blue-50 to-indigo-50 rounded-2xl p-6 md:p-12"
           >
             <div className="text-center mb-12">
               <h2 className="text-3xl font-bold mb-4">How You Earn Passive Income</h2>
@@ -312,71 +309,68 @@ const Home = () => {
               </p>
             </div>
             
-            <div className="grid lg:grid-cols-2 gap-8 lg:gap-12 items-start">
-              <div className="space-y-4 lg:space-y-6">
+            <div className="grid lg:grid-cols-2 gap-12 items-start">
+              <div className="space-y-6">
                 <div className="flex items-start">
-                  <div className="w-6 h-6 lg:w-8 lg:h-8 gradient-primary rounded-full flex items-center justify-center text-white font-bold mr-3 lg:mr-4 mt-1 text-xs lg:text-sm">1</div>
+                  <div className="w-8 h-8 gradient-primary rounded-full flex items-center justify-center text-white font-bold mr-4 mt-1 text-sm">1</div>
                   <div className="flex-1">
-                    <h3 className="font-semibold mb-1 lg:mb-2 text-sm lg:text-base">Join a Liquidity Pool</h3>
-                    <p className="text-gray-600 text-xs lg:text-sm">
+                    <h3 className="font-semibold mb-2">Join a Liquidity Pool</h3>
+                    <p className="text-gray-600 text-sm">
                       You provide two cryptocurrencies (like SOL and USDC) to a pool. This helps traders swap between these coins easily.
                     </p>
                   </div>
                 </div>
                 
                 <div className="flex items-start">
-                  <div className="w-6 h-6 lg:w-8 lg:h-8 gradient-primary rounded-full flex items-center justify-center text-white font-bold mr-3 lg:mr-4 mt-1 text-xs lg:text-sm">2</div>
+                  <div className="w-8 h-8 gradient-primary rounded-full flex items-center justify-center text-white font-bold mr-4 mt-1 text-sm">2</div>
                   <div className="flex-1">
-                    <h3 className="font-semibold mb-1 lg:mb-2 text-sm lg:text-base">Earn Trading Fees</h3>
-                    <p className="text-gray-600 text-xs lg:text-sm">
-                      Every time someone trades in your pool, you earn a small fee. The more trading activity, the more you earn.
+                    <h3 className="font-semibold mb-2">Earn Trading Fees</h3>
+                    <p className="text-gray-600 text-sm">
+                      Every time someone trades using your pool, you earn a small fee. These fees add up quickly in popular pools.
                     </p>
                   </div>
                 </div>
                 
                 <div className="flex items-start">
-                  <div className="w-6 h-6 lg:w-8 lg:h-8 gradient-primary rounded-full flex items-center justify-center text-white font-bold mr-3 lg:mr-4 mt-1 text-xs lg:text-sm">3</div>
+                  <div className="w-8 h-8 gradient-primary rounded-full flex items-center justify-center text-white font-bold mr-4 mt-1 text-sm">3</div>
                   <div className="flex-1">
-                    <h3 className="font-semibold mb-1 lg:mb-2 text-sm lg:text-base">FiLot Executes Smart Protection</h3>
-                    <p className="text-gray-600 text-xs lg:text-sm">
-                      Our agentic AI monitors for "impermanent loss" and automatically executes exit strategies when needed, or alerts you if you prefer manual control.
+                    <h3 className="font-semibold mb-2">FiLot Protects Your Investment</h3>
+                    <p className="text-gray-600 text-sm">
+                      FiLot's AI monitors your pool 24/7, protecting against impermanent loss and suggesting the best times to exit or compound your earnings.
                     </p>
                   </div>
                 </div>
                 
                 <div className="flex items-start">
-                  <div className="w-6 h-6 lg:w-8 lg:h-8 gradient-primary rounded-full flex items-center justify-center text-white font-bold mr-3 lg:mr-4 mt-1 text-xs lg:text-sm">4</div>
+                  <div className="w-8 h-8 gradient-primary rounded-full flex items-center justify-center text-white font-bold mr-4 mt-1 text-sm">4</div>
                   <div className="flex-1">
-                    <h3 className="font-semibold mb-1 lg:mb-2 text-sm lg:text-base">Intelligent Exit Execution</h3>
-                    <p className="text-gray-600 text-xs lg:text-sm">
+                    <h3 className="font-semibold mb-2">Smart Exit Strategies</h3>
+                    <p className="text-gray-600 text-sm">
                       FiLot calculates optimal exit timing and can automatically execute trades to lock in profits, or give you recommendations based on your preferences.
                     </p>
                   </div>
                 </div>
               </div>
               
-              <div className="bg-white rounded-xl p-4 lg:p-6 shadow-lg mt-6 lg:mt-0">
-                <h3 className="text-lg lg:text-xl font-bold mb-3 lg:mb-4 text-center">Example: SOL/RAY Pool</h3>
-                <div className="space-y-3 lg:space-y-4">
-                  <div className="flex justify-between items-center p-2 lg:p-3 bg-green-50 rounded-lg">
-                    <span className="text-xs lg:text-sm">Your Investment:</span>
-                    <span className="font-semibold text-sm lg:text-base">$1,000</span>
+              <div className="bg-white rounded-xl p-6 shadow-lg">
+                <h3 className="text-xl font-bold mb-4 text-center">Example: SOL/RAY Pool</h3>
+                <div className="space-y-4">
+                  <div className="flex justify-between items-center p-3 bg-green-50 rounded-lg">
+                    <span className="text-sm">Your Investment:</span>
+                    <span className="font-bold">$1,000</span>
                   </div>
-                  <div className="flex justify-between items-center p-2 lg:p-3 bg-blue-50 rounded-lg">
-                    <span className="text-xs lg:text-sm">Pool APY:</span>
-                    <span className="font-semibold text-green-600 text-sm lg:text-base">45.8%</span>
+                  <div className="flex justify-between items-center p-3 bg-blue-50 rounded-lg">
+                    <span className="text-sm">Annual APY:</span>
+                    <span className="font-bold text-green-600">45.8%</span>
                   </div>
-                  <div className="flex justify-between items-center p-2 lg:p-3 bg-purple-50 rounded-lg">
-                    <span className="text-xs lg:text-sm">Daily Earnings:</span>
-                    <span className="font-semibold text-green-600 text-sm lg:text-base">~$1.25</span>
+                  <div className="flex justify-between items-center p-3 bg-purple-50 rounded-lg">
+                    <span className="text-sm">Monthly Earnings:</span>
+                    <span className="font-bold text-purple-600">~$38</span>
                   </div>
-                  <div className="flex justify-between items-center p-2 lg:p-3 bg-yellow-50 rounded-lg">
-                    <span className="text-xs lg:text-sm">Monthly Potential:</span>
-                    <span className="font-semibold text-green-600 text-sm lg:text-base">~$38.17</span>
-                  </div>
-                  <div className="text-center pt-3 lg:pt-4">
-                    <div className="text-xs text-gray-500 mb-1 lg:mb-2">🤖 FiLot's agentic AI executes optimal strategies</div>
-                    <div className="text-xs text-gray-500">🛡️ Automated protection against impermanent loss</div>
+                  <div className="text-center p-4 bg-gradient-to-r from-green-100 to-blue-100 rounded-lg">
+                    <p className="text-sm text-gray-700">
+                      <span className="font-semibold">That's passive income</span> while you sleep! 💰
+                    </p>
                   </div>
                 </div>
               </div>
