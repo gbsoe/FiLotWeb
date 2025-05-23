@@ -47,22 +47,29 @@ This is the marketing website for FiLot, designed to:
 ## 🎯 Key Features
 
 ### Brand Messaging
-- **"Precision Investing"** - Core brand jargon used strategically throughout
+- **"Precision Investing"** - Core brand jargon used strategically (not overused)
 - Clear communication that FiLot launches December 2025
 - Early access messaging for community building
-- Honest representation of FiLot as execution-capable AI
+- Accurate representation of FiLot as agentic AI with execution capabilities
 
 ### Pages & Content
-- **Home**: Hero section, feature highlights, how it works, testimonials
+- **Home**: Hero section, feature highlights, how it works, passive income explanation, testimonials
 - **Features**: Detailed feature breakdown with security focus
 - **Pools**: Liquidity pool listings (SOL/USDC, SOL/RAY, RAY/USDC, SOL/mSOL)
 - **Knowledge**: Educational content about precision investing
 
+### Core Sections
+- **Passive Income Education**: Step-by-step explanation of earning from liquidity pools
+- **Execution-Capable AI**: Clear messaging about FiLot's ability to execute trades
+- **Impermanent Loss Protection**: How FiLot's AI prevents losses
+- **Real Examples**: Live pool data with actual APY rates (45.8% SOL/RAY)
+
 ### Technical Highlights
-- Responsive design (mobile, tablet, desktop)
+- Fully responsive design optimized for mobile, tablet, and desktop
 - Smooth animations and scroll effects
 - SEO-optimized with proper meta tags
 - Professional UI with consistent branding
+- Mobile-first approach with proper touch targets
 
 ## 🚀 Getting Started
 
@@ -112,8 +119,15 @@ This is the marketing website for FiLot, designed to:
 ### Call-to-Action Strategy
 - "Join Early Access" instead of "Start Investing"
 - "Preview Mode" for demonstration features
-- Clear launch date communication
+- Clear launch date badges prominently displayed
 - Telegram bot for early access sign-ups
+
+### Recent Updates
+- Added comprehensive passive income explanation section
+- Fixed mobile UX issues across all sections
+- Updated messaging to reflect agentic AI execution capabilities
+- Removed misleading "advisor-only" language
+- Enhanced with higher APY examples (45.8% SOL/RAY pool)
 
 ## 🔗 External Links
 
@@ -124,18 +138,22 @@ This is the marketing website for FiLot, designed to:
 ## 🛡️ Security Messaging
 
 The website accurately represents FiLot's capabilities:
-- **NOT**: "FiLot only gives advice" (misleading)
+- **NOT**: "FiLot only gives advice" (misleading - removed)
 - **YES**: "FiLot executes trades within your defined parameters"
+- **YES**: "automatically executes exit strategies when needed"
 - Emphasis on user control through permission settings
 - Choice between automatic execution or manual approval
+- Clear explanation of impermanent loss protection
 
 ## 📊 Pool Data
 
 Current supported pools:
 - SOL/USDC (22.5% APY, Low Risk)
-- SOL/RAY (45.8% APY, Medium Risk)  
+- SOL/RAY (45.8% APY, Medium Risk) - Featured in passive income example
 - RAY/USDC (38.7% APY, Medium Risk)
 - SOL/mSOL (19.8% APY, Low Risk)
+
+*Note: ETH/USDC pool removed as not supported by FiLot*
 
 ## 🎯 SEO & Performance
 
