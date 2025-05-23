@@ -353,7 +353,7 @@ const Home = () => {
               </div>
               
               <div className="bg-white rounded-xl p-6 shadow-lg">
-                <h3 className="text-xl font-bold mb-4 text-center">Example: SOL/RAY Pool</h3>
+                <h3 className="text-xl font-bold mb-4 text-center">Simulation: SOL/RAY Pool</h3>
                 <div className="space-y-4">
                   <div className="flex justify-between items-center p-3 bg-green-50 rounded-lg">
                     <span className="text-sm">Your Investment:</span>
@@ -377,44 +377,7 @@ const Home = () => {
             </div>
           </div>
 
-          {/* Testimonials Section */}
-          <div 
-            id="testimonials" 
-            className={cn(
-              "mb-20 transition-all duration-1000 transform",
-              isVisible.testimonials ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"
-            )}
-          >
-            <div className="text-center mb-12">
-              <h2 className="text-3xl font-bold">Trusted by Investors Worldwide</h2>
-            </div>
-            
-            <div className="grid md:grid-cols-3 gap-8">
-              {testimonials.map((testimonial) => (
-                <div key={testimonial.id} className="bg-white rounded-xl p-6 shadow-md border border-border-color">
-                  <div className="flex items-center mb-3">
-                    {[...Array(testimonial.rating)].map((_, i) => (
-                      <div key={i} className="text-amber-400 mr-1">
-                        <i className="fas fa-star"></i>
-                      </div>
-                    ))}
-                  </div>
-                  <p className="text-gray-600 mb-4 italic">
-                    "{testimonial.text}"
-                  </p>
-                  <div className="flex items-center">
-                    <div className="w-10 h-10 bg-blue-100 rounded-full flex items-center justify-center text-primary">
-                      <span className="font-semibold">{testimonial.initials}</span>
-                    </div>
-                    <div className="ml-3">
-                      <p className="font-semibold">{testimonial.author}</p>
-                      <p className="text-gray-500 text-sm">{testimonial.location}</p>
-                    </div>
-                  </div>
-                </div>
-              ))}
-            </div>
-          </div>
+
           
           {/* Final CTA Section */}
           <div className="bg-card-bg rounded-2xl p-8 md:p-12 text-center">
