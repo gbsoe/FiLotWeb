@@ -297,6 +297,92 @@ const Home = () => {
             </div>
           </div>
           
+          {/* How You Earn Section */}
+          <div 
+            id="how-you-earn"
+            className={cn(
+              "mb-20 transition-all duration-1000 transform bg-gradient-to-br from-blue-50 to-indigo-50 rounded-2xl p-8 md:p-12",
+              isVisible.testimonials ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"
+            )}
+          >
+            <div className="text-center mb-12">
+              <h2 className="text-3xl font-bold mb-4">How You Earn Passive Income</h2>
+              <p className="text-gray-600 max-w-2xl mx-auto">
+                Simple steps to start earning money from your crypto while you sleep
+              </p>
+            </div>
+            
+            <div className="grid md:grid-cols-2 gap-12 items-center">
+              <div className="space-y-6">
+                <div className="flex items-start">
+                  <div className="w-8 h-8 gradient-primary rounded-full flex items-center justify-center text-white font-bold mr-4 mt-1">1</div>
+                  <div>
+                    <h3 className="font-semibold mb-2">Join a Liquidity Pool</h3>
+                    <p className="text-gray-600 text-sm">
+                      You provide two cryptocurrencies (like SOL and USDC) to a pool. This helps traders swap between these coins easily.
+                    </p>
+                  </div>
+                </div>
+                
+                <div className="flex items-start">
+                  <div className="w-8 h-8 gradient-primary rounded-full flex items-center justify-center text-white font-bold mr-4 mt-1">2</div>
+                  <div>
+                    <h3 className="font-semibold mb-2">Earn Trading Fees</h3>
+                    <p className="text-gray-600 text-sm">
+                      Every time someone trades in your pool, you earn a small fee. The more trading activity, the more you earn.
+                    </p>
+                  </div>
+                </div>
+                
+                <div className="flex items-start">
+                  <div className="w-8 h-8 gradient-primary rounded-full flex items-center justify-center text-white font-bold mr-4 mt-1">3</div>
+                  <div>
+                    <h3 className="font-semibold mb-2">FiLot Protects Your Investment</h3>
+                    <p className="text-gray-600 text-sm">
+                      Our AI watches for "impermanent loss" (when price changes hurt your returns) and tells you the best time to exit to keep your profits.
+                    </p>
+                  </div>
+                </div>
+                
+                <div className="flex items-start">
+                  <div className="w-8 h-8 gradient-primary rounded-full flex items-center justify-center text-white font-bold mr-4 mt-1">4</div>
+                  <div>
+                    <h3 className="font-semibold mb-2">Exit at the Right Time</h3>
+                    <p className="text-gray-600 text-sm">
+                      FiLot calculates when you've earned enough fees to cover any losses, then suggests the perfect exit timing to maximize your profits.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              
+              <div className="bg-white rounded-xl p-6 shadow-lg">
+                <h3 className="text-xl font-bold mb-4 text-center">Example: SOL/USDC Pool</h3>
+                <div className="space-y-4">
+                  <div className="flex justify-between items-center p-3 bg-green-50 rounded-lg">
+                    <span className="text-sm">Your Investment:</span>
+                    <span className="font-semibold">$1,000</span>
+                  </div>
+                  <div className="flex justify-between items-center p-3 bg-blue-50 rounded-lg">
+                    <span className="text-sm">Pool APY:</span>
+                    <span className="font-semibold text-green-600">22.5%</span>
+                  </div>
+                  <div className="flex justify-between items-center p-3 bg-purple-50 rounded-lg">
+                    <span className="text-sm">Daily Earnings:</span>
+                    <span className="font-semibold text-green-600">~$0.62</span>
+                  </div>
+                  <div className="flex justify-between items-center p-3 bg-yellow-50 rounded-lg">
+                    <span className="text-sm">Monthly Potential:</span>
+                    <span className="font-semibold text-green-600">~$18.75</span>
+                  </div>
+                  <div className="text-center pt-4">
+                    <div className="text-xs text-gray-500 mb-2">✨ FiLot's AI monitors for optimal exit timing</div>
+                    <div className="text-xs text-gray-500">🛡️ Protection against impermanent loss</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
           {/* Testimonials Section */}
           <div 
             id="testimonials" 
