@@ -65,17 +65,5 @@ export const pools: Pool[] = [
     risk: "Low",
     volume24h: 1800000
   },
-  {
-    id: "eth-usdc",
-    pair: "ETH/USDC",
-    token1: "ETH",
-    token2: "USDC",
-    token1Color: "bg-gray-100",
-    token2Color: "bg-green-100",
-    apy: 15.5,
-    tvl: 8500000,
-    fee: 0.2,
-    risk: "Low",
-    volume24h: 3200000
-  }
+
 ];
