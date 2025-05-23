@@ -337,9 +337,9 @@ const Home = () => {
                 <div className="flex items-start">
                   <div className="w-8 h-8 gradient-primary rounded-full flex items-center justify-center text-white font-bold mr-4 mt-1">3</div>
                   <div>
-                    <h3 className="font-semibold mb-2">FiLot Protects Your Investment</h3>
+                    <h3 className="font-semibold mb-2">FiLot Executes Smart Protection</h3>
                     <p className="text-gray-600 text-sm">
-                      Our AI watches for "impermanent loss" (when price changes hurt your returns) and tells you the best time to exit to keep your profits.
+                      Our agentic AI monitors for "impermanent loss" and automatically executes exit strategies when needed, or alerts you if you prefer manual control.
                     </p>
                   </div>
                 </div>
@@ -347,16 +347,16 @@ const Home = () => {
                 <div className="flex items-start">
                   <div className="w-8 h-8 gradient-primary rounded-full flex items-center justify-center text-white font-bold mr-4 mt-1">4</div>
                   <div>
-                    <h3 className="font-semibold mb-2">Exit at the Right Time</h3>
+                    <h3 className="font-semibold mb-2">Intelligent Exit Execution</h3>
                     <p className="text-gray-600 text-sm">
-                      FiLot calculates when you've earned enough fees to cover any losses, then suggests the perfect exit timing to maximize your profits.
+                      FiLot calculates optimal exit timing and can automatically execute trades to lock in profits, or give you recommendations based on your preferences.
                     </p>
                   </div>
                 </div>
               </div>
               
               <div className="bg-white rounded-xl p-6 shadow-lg">
-                <h3 className="text-xl font-bold mb-4 text-center">Example: SOL/USDC Pool</h3>
+                <h3 className="text-xl font-bold mb-4 text-center">Example: SOL/RAY Pool</h3>
                 <div className="space-y-4">
                   <div className="flex justify-between items-center p-3 bg-green-50 rounded-lg">
                     <span className="text-sm">Your Investment:</span>
@@ -364,19 +364,19 @@ const Home = () => {
                   </div>
                   <div className="flex justify-between items-center p-3 bg-blue-50 rounded-lg">
                     <span className="text-sm">Pool APY:</span>
-                    <span className="font-semibold text-green-600">22.5%</span>
+                    <span className="font-semibold text-green-600">45.8%</span>
                   </div>
                   <div className="flex justify-between items-center p-3 bg-purple-50 rounded-lg">
                     <span className="text-sm">Daily Earnings:</span>
-                    <span className="font-semibold text-green-600">~$0.62</span>
+                    <span className="font-semibold text-green-600">~$1.25</span>
                   </div>
                   <div className="flex justify-between items-center p-3 bg-yellow-50 rounded-lg">
                     <span className="text-sm">Monthly Potential:</span>
-                    <span className="font-semibold text-green-600">~$18.75</span>
+                    <span className="font-semibold text-green-600">~$38.17</span>
                   </div>
                   <div className="text-center pt-4">
-                    <div className="text-xs text-gray-500 mb-2">✨ FiLot's AI monitors for optimal exit timing</div>
-                    <div className="text-xs text-gray-500">🛡️ Protection against impermanent loss</div>
+                    <div className="text-xs text-gray-500 mb-2">🤖 FiLot's agentic AI executes optimal strategies</div>
+                    <div className="text-xs text-gray-500">🛡️ Automated protection against impermanent loss</div>
                   </div>
                 </div>
               </div>
